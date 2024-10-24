@@ -1,0 +1,53 @@
+/* Додаткові стилі для туристичного сайту */
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.navbar-brand {
+  text-transform: uppercase; /* Зробити всі літери великими */
+  color: #0daee3; 
+  font-weight: bold; 
+}
+
+
+.bg-primary {
+  background-color: #007bff; /* Синій фон для елементів з класом bg-primary */
+}
+
+.footer {
+  padding: 1rem 0;
+}
+
+#about {
+  background-color: #007bff; /* Синій фон для секції "Про нас" */
+}
+
+#about h2, #about h3 {
+  color: #f8f9fa; /* Білий колір для заголовків */
+
+}
+
+#about p {
+  color: #555; /* Колір тексту для абзаців */
+}
+
+.text-center.mb-4 {
+  font-weight: bold; /* Зробить жирним тільки цей абзац */
+}
+
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #007bff; /* Синій колір */
+  border: none;
+  border-radius: 5px;
+  text-decoration: none; /* Зникає підкреслення */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Темніший синій при наведенні */
+}

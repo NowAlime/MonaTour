@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Туристичний сайт</title>
+  <!-- Підключаємо Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Підключаємо власні стилі -->
+  <link rel="stylesheet" href="css/styless.css">
+</head>
+<body>
+
+  <!-- Навігаційна панель -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mon a Tour</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Головна</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tours">Тури</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Про нас</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Контакти</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Головний банер -->
+  <section class="bg-primary text-white text-center py-5">
+    <div class="container">
+      <h1>Мандруйте з агенцією, яка піклується про вас</h1>
+      <p>Найкращі туристичні маршрути для ваших пригод</p>
+      <a href="#tours" class="btn btn-light btn-lg">Дізнатися більше</a>
+    </div>
+  </section>
+
+  <!-- Популярні тури -->
+<section id="tours" class="py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Популярні тури</h2>
+      <div class="row">
+          <!-- Тур 1 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Tour 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Пошук туру </h5>
+                      <p class="card-text">За допомогою пошуку туру ви можете самостійно переглянути, підібрати та забронювати найвигіднішу пропозицію. Автоматична система дозволить порівняти ціни у всіх туроператорів.</p>
+                      <a href="pages/searchbar.html" class="btn btn-primary">Детальніше</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Тур 2 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Tour 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Авторські тури</h5>
+                      <p class="card-text">Авторські тури — це ретельно розроблені програми, які гарантують веселі та незабутні подорожі, враховуючи всі ваші побажання та інтереси.</p>
+                      <a href="pages/sova.html" class="btn btn-primary">Детальніше</a>
+                  </div>
+              </div>
+          </div>
+          <!-- Тур 3 -->
+          <div class="col-md-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Tour 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Круїзи</h5>
+                      <p class="card-text">Круїзи — це захоплюючі подорожі по воді, які поєднують комфорт, розваги та можливість відвідати кілька чудових місць, насолоджуючись красою океанських або річкових ландшафтів.</p>
+                      <a href="pages/cruise.html" class="btn btn-primary">Детальніше</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Про нас -->
+<section id="about" class="bg-light py-5">
+  <div class="container">
+      <h2 class="text-center mb-4">Подорожі із задоволенням</h2>
+      <p class="text-center mb-4">Підберемо вам тур від щирого серця, обов'язково врахуємо всі хотілки, ваш і наш досвід подорожей, будемо на зв'язку 24/7, контролювати ваш відпочинок</p>
+      <h3 class="text-center mb-4">Дбаємо про кожного туриста</h3>
+      
+      <div class="row">
+          <div class="col-md-3 text-center">
+              <h4>Економія часу</h4>
+              <p>За бажанням в офіс можна не їхати, проконсультуємо, підберемо тур та сплатимо онлайн.</p>
+          </div>
+          <div class="col-md-3 text-center">
+              <h4>Знаємо, що продаємо</h4>
+              <p>Наша команда відвідала близько 2000 готелів, підбираємо тур з власного досвіду з урахуванням актуальної інформації.</p>
+          </div>
+          <div class="col-md-3 text-center">
+              <h4>Завжди на зв'язку</h4>
+              <p>Ставимо звукові повідомлення на протязі вашої подорожі. За наявності питань, довго чекати на відповідь не потрібно.</p>
+          </div>
+          <div class="col-md-3 text-center">
+              <h4>Плюшка - печенюшка</h4>
+              <p>Вибиваємо безкоштовні, корисні плюшки для вашого туру, також в офісі почастуємо найсмачнішою печінкою Mon A Tour:)</p>
+          </div>
+      </div>
+  </div>
+</section>
+
+
+  <!-- Контакти -->
+  <section id="contact" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Контакти</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Наш офіс</h5>
+          <p>м. Одеса, 65069
+            ТЦ "Кадор", вул. Асташкіна 29</p>
+          <p><strong>Телефон:</strong> +38 063 161 80 89    +38 067 203 12 04</p>
+          <p><strong>Email:</strong> monatour.odessa@gmail.com</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Зв'яжіться з нами</h5>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Ім'я</label>
+              <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Повідомлення</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Надіслати</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Mon A Tour. Всі права захищені.</p>
+  </footer>
+
+  <!-- Підключаємо Bootstrap JS та власний JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
